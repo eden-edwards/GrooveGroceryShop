@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groove Grocery Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header><img id="logo" src="https://i1.faceprep.in/ProGrad/groove-logo.png" alt="logo"></header>
+<div class="top container">
+    <h1> Welcome to Groove!</h1><br>
+    <p>Select your favorite groceries, confirm your mobile number <br> and get them delivered in 30 mins - <b></b> Straight from the Farm</b></p>
+    <br>
+    <div class="button store"> <a href="#table"> <b>What’s in store?</b></a> </div>
+</div>
+<div class="table container">
+    <h2>Here’s What Is In Store Today</h2>
+    <table id="table">
+        <caption>Availible in Groove</caption>
+        <!-- <table></table>
+        <th></th>
+        <tr></tr>
+        <td></td> -->
+        <tr>
+            <th>SELECT</th>
+            <th>ITEM</th>
+            <th>NAME</th>
+            <th>PRICE</th>
+            <th>CONTAINS</th>
+            <th>QUANTITY</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="Green Apple" id=""></td>
+            <td><img src=" https://i1.faceprep.in/ProGrad/apple.png" alt="Green Apple"></td>
+            <td>Green Apple</td>
+            <td>INR 22/- Per Kg</td>
+            <td> 520 Calories, 3.0 g Protein, <br> 2.0 g Fat, 24 g Fiber.</td>
+            <td><input type="number" id="quantity"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="Strawberries" id=""></td>
+            <td><img src=" https://i1.faceprep.in/ProGrad/strawberry.png" alt="Strawberries"></td>
+            <td>Strawberries</td>
+            <td> INR 108/- Per Box</td>
+            <td>424 Calories, 8.88 g Protein, <br> 26.4 g Fiber.</td>
+            <td><input type="number" id="quantity"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="Carrots" id=""></td>
+            <td><img src=" https://i1.faceprep.in/ProGrad/carrot.png" alt="Carrots"></td>
+            <td>Carrots</td>
+            <td>INR 26/- Per Kg</td>
+            <td> 410 Calories, 9.0 g Protein, <br> 2.0 g Fat, 28.0 g Fiber.</td>
+            <td><input type="number" id="quantity"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="Spinach" id=""></td>
+            <td><img src="https://i1.faceprep.in/ProGrad/spinach.png" alt="Spinach"></td>
+            <td>Spinach</td>
+            <td>INR 10/- Per Piece</td>
+            <td>230 Calories, 29.0 g Protein, <br> 4.0 g Fat, 22.0 g Fiber.</td>
+            <td><input type="number" id="quantity"></td>
+        </tr>
+        <tr>
+            <td colspan="6">Coming Soon</td>
+        </tr>
+    </table>
+    <br>
+    <p>One last step to place your order. <br> Enter your mobile number and you are done!</p>
+    <br>
+    <input id="mobile" type="text" placeholder="Enter Your Mobile Number">
+    <br><br>
+    <div class="button" onclick="buy()" id="buy-now"> <b>Buy Now</b> </div>
+    <h4 id="thanks">Thank You For Shopping With Us!</h4>
+</div>
+<footer>
+    <p>Made with love by ProGrad Junior, Eden</p>
+</footer>
+
+<script>
+    function buy(){
+        document.getElementById("buy-now").style.display="none";
+        document.getElementById("thanks").style.display="inherit";
+    }
+</script>
+
+<body>
+    
+</body>
+</html>

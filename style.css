@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+}
+
+header,footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    padding: 15px;
+}
+
+.top{
+    background-image: url("https://i1.faceprep.in/ProGrad/groove-bg.png");
+    background-size: 100% 100%;
+}
+
+.container{
+   min-height: 1000px;
+    padding-top: 5%;
+}
+
+h1{
+    margin-top: 150px;
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 20px;
+}
+
+.button{
+    background-color: #72AE60;
+    padding: 10px;
+    width: 130px;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+}
+
+.store{
+    padding: 20px;
+}
+
+h2, table{
+margin-top: 3%;
+margin-bottom: 3%;
+}
+
+#mobile{
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+#quantity{
+    width: 40px;
+}
+
+table, th, tr, td{
+margin: auto;
+border: 2px solid lightgray;
+border-spacing: 5px;
+padding: 20px;
+border-collapse: collapse;
+font-size: 20px;
+}
+
+th{
+    background-color: #72AE60;
+    color: white;
+}
+
+tr:hover{
+    background-color: #EDEAE4;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h4{
+    display: none;
+}
